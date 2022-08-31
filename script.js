@@ -1,2 +1,3 @@
-document.body.innerHTML = '<h1>Hello JavaScript</h1>'
-console.log('Test 2')
+function openMenu() {
+    document.getElementById("sidebar").classList.toggle('active');
+}
