@@ -5,11 +5,11 @@
 }
 #sidebar {
     position: fixed;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     background: #57626f;
     border-radius: 10px;
-    left: -250px;
+    left: -300px;
     transition: all 600ms;
     margin: 25px 0 0;
 }
@@ -45,7 +45,7 @@
 
 #sidebar .toggle-btn {
     position: absolute;
-    left: 270px;
+    left: 320px;
     top: 20px;
     background: #E0E5EA;
     padding: 10px;
@@ -69,12 +69,18 @@
     margin: 4px 0;
 }
 
-.registration {
-    margin-left: 1300px;
-    margin-top: 5px;
-
-    width: 400px;
-    height: 60px;
+.register {
+    color: #E0E5EA;
+    border-radius: 12px;
 }
 
+.submit-btn {
+    border-radius: 5px;
+    border-color: #556270;
+    background-color: #666;
+    color: #E0E5EA;
+}
 
+.submit-field {
+    width: 130px;
+}
