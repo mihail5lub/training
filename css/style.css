@@ -84,3 +84,14 @@
 .submit-field {
     width: 130px;
 }
+
+.header-appearance {
+    background-color: #556270;
+    height: 80px;
+}
+
+.header-content {
+    color: #E0E5EA;
+    margin-left: 700px;
+    padding-top: 20px;
+}
