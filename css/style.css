@@ -40,7 +40,7 @@
 }
 
 #sidebar ul li a:hover {
-    color: #59e9df;
+    color: #ac2b2b;
 }
 
 #sidebar .toggle-btn {
@@ -92,14 +92,24 @@
 }
 
 .header-content {
-    color: #d18016;
-    margin-left: 700px;
     padding-top: 20px;
+    color: #d18016;
+    display: flex;
+    justify-content: center;
 }
 
 .styleMusic {
-    width: 500px;
-    margin-left: 560px;
-    margin-top: 100px;
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 1430px;
     display: flex;
+    font-size: larger;
+    color: #d18016;
+    background-color: peachpuff;
+}
+
+@media(max-width: 1200px) {
+    .styleMusic {
+        margin-left: 930px;
+    }
 }
