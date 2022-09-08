@@ -7,7 +7,7 @@
     position: fixed;
     width: 300px;
     height: 350px;
-    background: #57626f;
+    background: peachpuff;
     border-radius: 10px;
     left: -300px;
     transition: all 600ms;
@@ -20,7 +20,7 @@
 
 #sidebar ul li:first-child {
     text-align: center;
-    color: white;
+    color: #d18016;
     font-size: 1.95em;
     list-style: none;
     padding: 25px 10px 10px 10px;
@@ -35,7 +35,7 @@
 }
 
 #sidebar ul li a {
-    color: #dfe5ed;
+    color: #d18016;
     text-decoration: none;
 }
 
@@ -47,38 +47,39 @@
     position: absolute;
     left: 320px;
     top: 20px;
-    background: #E0E5EA;
+    background:peachpuff;
     padding: 10px;
     border-radius: 12px;
     cursor: pointer;
 }
 
 #sidebar .toggle-btn:hover {
-    background: #556270; 
+    background: rgb(165, 110, 61); 
 }
 
 #sidebar .toggle-btn span {
-    background: #fafafa;
+    background: peachpuff;
 }
 
 #sidebar .toggle-btn span {
     display: block;
     width: 25px;
     height: 4px;
-    background-color: #666;
+    background-color: #d18016;
     margin: 4px 0;
 }
 
 .register {
-    color: #E0E5EA;
+    color: #d18016;
     border-radius: 12px;
 }
 
 .submit-btn {
-    border-radius: 5px;
+    border-radius: 3px;
+    border-width: 1px;
     border-color: #556270;
-    background-color: #666;
-    color: #E0E5EA;
+    background-color: peachpuff;
+    color: #d18016;
 }
 
 .submit-field {
@@ -86,12 +87,12 @@
 }
 
 .header-appearance {
-    background-color: #556270;
+    background-color: peachpuff;
     height: 80px;
 }
 
 .header-content {
-    color: #E0E5EA;
+    color: #d18016;
     margin-left: 700px;
     padding-top: 20px;
 }
@@ -100,4 +101,5 @@
     width: 500px;
     margin-left: 560px;
     margin-top: 100px;
+    display: flex;
 }
